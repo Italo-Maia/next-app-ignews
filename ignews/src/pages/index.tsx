@@ -1,12 +1,15 @@
-
-import styles from '../../styles/home.module.scss'
+import Head from "next/head";
+// import "../../styles/global.scss";
 
 export default function Home() {
   return (
-    <div>
-     <h1 className={styles.title}>
+    <>
+      <Head>
+        <title>Inicio | Ignews</title>
+      </Head>
+      <h1>
         Italo <span> Maia </span>
-       </h1>
-    </div>
-  )
+      </h1>
+    </>
+  );
 }
